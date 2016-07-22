@@ -1,0 +1,34 @@
+.color-sit {
+  color: #fff;
+  background-color: #4D4668;
+  border-color: #48335A;
+}
+
+//sobreescribe colores de bootstrap
+
+.panel-primary > .panel-heading {
+    color: #FFF;
+    background-color: #48335A;
+    border-color: #48335A;
+}
+
+.label-primary {
+    background-color: #48335A;
+}
+
+
+.btn-success {
+    color: #FFF;
+    background-color: #48335A;
+    border-color: #48335A;
+}
+
+.modal-header, h4, .close {
+      background-color: #48335A;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color: #f9f9f9;
+  }
