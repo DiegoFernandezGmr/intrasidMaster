@@ -50,7 +50,10 @@ if($sesion->validarSesion()){
     }elseif(isset($_GET['accion']) && $_GET['accion']=="CRUDCategoria"){
         include('../model/categoria.class.php');
         include('../model/ccosto.class.php');
-        include('../view/CRUDCategoria.php');
+        include('../view/CRUDCategoria.php');    
+    }elseif(isset($_GET['accion']) && $_GET['accion']=="CRUDCcosto"){
+        include('../model/ccosto.class.php');
+        include('../view/CRUDCcosto.php');  
     }else{
         include('../model/cotizacion.class.php');
         include('../view/center.php');

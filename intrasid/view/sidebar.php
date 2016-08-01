@@ -38,7 +38,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-caret-square-o-down"></i> Mantenedores <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="dashboard.php?accion=CRUDCategoria&<?php echo SID; ?>">Categor&iacute;a </a></li>
-                <li><a href="#">Centro de Costo</a></li>
+                <li><a href="dashboard.php?accion=CRUDCcosto&<?php echo SID; ?>">Centro de Costo</a></li>
                 <li><a href="#">Cliente</a></li>
                 <li><a href="#">Despacho</a></li>
                 <li><a href="#">Forma de Pago</a></li>
